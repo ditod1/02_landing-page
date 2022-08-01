@@ -1,4 +1,65 @@
-img {
-  width: 100px;
-  height: auto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: #E5E7EB;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 200px;
+}
+
+#logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.hero-cont {
+  background-color: #1F2937;
+  display: flex;
+  padding: 75px 200px;
+  gap: 50px;
+}
+
+button {
+  background-color: #3882F6;
+  padding: 5px 20px;
+  font-weight: bold;
+  color: #E5E7EB;
+  border-radius: 5px;
+}
+.no-border {
+  border: none;
+  margin-top: 10px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+.hero-cont img {
+  width: 450px;
+  height: 210px;
 }
