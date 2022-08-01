@@ -101,3 +101,30 @@ button {
 .sub-info p {
   text-align: center;
 }
+
+.quote-cont {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 100px 200px;
+  color: #1F2937;
+}
+
+.quote-cont .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 80px;
+}
+
+.quote-cont .text-em {
+  font-size: 36px;
+  font-weight: 50;
+}
+
+.quote-cont .text-author {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+}
