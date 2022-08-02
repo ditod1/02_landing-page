@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
 
 body {
+  display: flex;
   margin: 0;
-  font-family: roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -12,7 +13,7 @@ ul {
   padding: 0;
 }
 
-a {
+.right-align a{
   text-decoration: none;
   padding: 10px;
   color: #E5E7EB;
@@ -30,7 +31,7 @@ a {
   padding: 10px 200px;
 }
 
-#logo-text {
+.left-aligh .logo{
   font-size: 24px;
   color: #F9FAF8;
   font-weight: bold;
@@ -58,12 +59,18 @@ button {
   margin-top: 10px;
 }
 
-.hero-title {
+h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+  margin: 0;
 }
-.hero-cont img {
+
+p {
+  margin: 0;
+}
+
+.hero-img img {
   width: 450px;
   height: 210px;
 }
@@ -75,26 +82,26 @@ button {
   padding: 50px 200px;
 }
 
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
 .info-cont {
   justify-content: center;
   display: flex;
   gap: 20px;
 }
 
-.info-title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: bolder;
-  color: #1F2937;
-  margin-bottom: 50px;
-}
 
 .sub-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 200px;
-
+  margin-top: 50px;
 }
 .sub-info img {
   width: 100px;
@@ -120,14 +127,13 @@ button {
   padding: 0px 80px;
 }
 
-.quote-cont .text-em {
+.quote-cont .info .text-em {
   font-size: 36px;
   font-weight: 50;
 }
 
-.quote-cont .text-author {
+.quote-cont .info b{
   font-size: 20px;
-  font-weight: bold;
   text-align: right;
   padding-right: 20px;
 }
@@ -150,9 +156,8 @@ button {
   border-radius: 10px;
 }
 
-.call-action .title {
-  font-size: 20px;
-  font-weight: bold;
+h3 {
+  margin: 0;
 }
 
 .footer {
