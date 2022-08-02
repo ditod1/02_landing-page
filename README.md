@@ -1,4 +1,4 @@
-#landing-page
+# landing-page
 
 This dummy website displays the usage of css flexboxes to create a webpage.
 
