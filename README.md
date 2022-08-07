@@ -1,6 +1,6 @@
 # landing-page
 
-live: https://ditod1.github.io/landing-page/
+live: https://ditod1.github.io/02_landing-page/
 
 This dummy website displays the usage of css flexboxes arrangement to create a webpage.
 
